@@ -1,0 +1,60 @@
+/*
+  COMPLETED GAME.CSS FOR AD 320 EXERCISE 4
+  DO NOT MODIFY THIS FILE
+ */
+
+ body, button, select, input {
+    font-family: "Helvetica", "Verdana", sans-serif;
+    text-align: center;
+    font-size: 12pt;
+  }
+  
+  main {
+    width: 80%;
+    margin: auto;
+  }
+  
+  button, select {
+    padding: 8px;
+    background-color: white;
+    border: 2pt solid black;
+  }
+  
+  h2 {
+    text-decoration: underline;
+  }
+  
+  #start-btn {
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #menu-view > article {
+    background-color: #6F77ED;
+    border-radius: 0.35em;
+    border: 5pt solid black;
+  }
+  
+  #menu-view > article, #details-bar {
+    color: white;
+  }
+  
+  #details-bar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    background-color: black;
+    font-size: 14pt;
+  }
+  
+  h2 {
+    font-size: 16pt;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
